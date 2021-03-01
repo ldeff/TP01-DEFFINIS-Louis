@@ -1,1 +1,7 @@
-console.log('test');
+$(function() {
+
+$( "#signupBtn" ).click(function() {
+    console.log('click');
+  });
+
+});
