@@ -9,9 +9,8 @@ $( "#signupBtn" ).click(function() {
 
         $('#infoPopUpText').html('Enregistrement réussi');
 
-        $('#username').val('');
-        $('#password').val('');
-        $('#confirmPassword').val('');
+        $('.form-control').val('');
+
     }
     else{
 
